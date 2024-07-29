@@ -1,44 +1,52 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Greed - Resolução de Problemas
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 13 <br>
+**Conteúdo da Disciplina**: Greed<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0010495  |  Arthur Alves de Matos |
+| 17/0085023  |  Carla Rocha Cangussú |
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+## Sobre
+O objetivo do projeto é responder questões disponíveis em juízes online sobre algoritmos ambiciosos, as questões serão de média e alta complexidade.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+### Resultados dos Problemas em terminal
+A partir dos arquivos de testes `teste.txt` presentes em cada diretório, os seguintes resultados são apresentados
+
+### 1021
+![1021](/screenshots/1021.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C<br>
+Linguagem: C
+Para a utilização do projeto, deve-se ter acesso ao compilador de linguagem C gcc.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Cada questão foi separada em uma pasta diferente e para executar os códigos de cada uma das questões é necessário a execução dos 3 seguintes comandos adaptados ao nome do arquivo de cada questão. Ex:
+
+```sh
+    cd Questoes/n_questao/
+    gcc -o n_questao n_questao.c
+    ./n_questao < teste.txt
+```
+
+### Uso para 1021
+Para a questão 1021 é necessário rodar com o comando -lm para linkar a biblioteca math.h
+
+```sh
+    cd Questoes/1021/
+    gcc -o 1021 1021.c -lm
+    ./2490 < teste.txt
+```
+
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Para acessar os enunciados é necessário criar um login na plataforma Beecrowd, os links de cada enunciado estão presentes em:
+
+- [Bee 1021 - Notas e Moedas](https://judge.beecrowd.com/pt/problems/view/1021)
 
 
 
