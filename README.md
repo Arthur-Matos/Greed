@@ -20,7 +20,7 @@ A partir dos arquivos de testes `teste.txt` presentes em cada diretório, os seg
 ![1021](/screenshots/1021.png)
 
 ### Bee 1086 - O Salão do Clube
-![1086](/screenshots/1021.png)
+![1086](/screenshots/1086.png)
 
 ## Instalação 
 **Linguagem**: C<br>
