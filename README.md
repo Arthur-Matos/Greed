@@ -16,8 +16,11 @@ O objetivo do projeto é responder questões disponíveis em juízes online sobr
 ### Resultados dos Problemas em terminal
 A partir dos arquivos de testes `teste.txt` presentes em cada diretório, os seguintes resultados são apresentados
 
-### 1021
+### Bee 1021 - Notas e Moedas
 ![1021](/screenshots/1021.png)
+
+### Bee 1086 - O Salão do Clube
+![1086](/screenshots/1021.png)
 
 ## Instalação 
 **Linguagem**: C<br>
@@ -42,12 +45,11 @@ Para a questão 1021 é necessário rodar com o comando -lm para linkar a biblio
     ./2490 < teste.txt
 ```
 
-
 ## Outros 
 Para acessar os enunciados é necessário criar um login na plataforma Beecrowd, os links de cada enunciado estão presentes em:
 
 - [Bee 1021 - Notas e Moedas](https://judge.beecrowd.com/pt/problems/view/1021)
+- [Bee 1086 - O Salão do Clube](https://judge.beecrowd.com/pt/problems/view/1086)
 
-
-
-
+## Apresentações de resoluções
+Exemplificações em vídeo de aplicações entre os exercicios resolvidos.
