@@ -22,6 +22,12 @@ A partir dos arquivos de testes `teste.txt` presentes em cada diretório, os seg
 ### Bee 1086 - O Salão do Clube
 ![1086](/screenshots/1086.png)
 
+### Bee 1084 - Apagando e Ganhando
+![1084](/screenshots/1084.png)
+
+### Bee 1288 -  Canhão de Destruição
+![1288](/screenshots/1288.png)
+
 ## Instalação 
 **Linguagem**: C<br>
 Linguagem: C
