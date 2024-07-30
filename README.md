@@ -50,6 +50,8 @@ Para acessar os enunciados é necessário criar um login na plataforma Beecrowd,
 
 - [Bee 1021 - Notas e Moedas](https://judge.beecrowd.com/pt/problems/view/1021)
 - [Bee 1086 - O Salão do Clube](https://judge.beecrowd.com/pt/problems/view/1086)
+- [Bee 1084 - Apagando e Ganhando](https://judge.beecrowd.com/pt/problems/view/1084)
+- [Bee 1288 -  Canhão de Destruição](https://judge.beecrowd.com/pt/problems/view/1288)
 
 ## Apresentações de resoluções
 Exemplificações em vídeo de aplicações entre os exercicios resolvidos.
