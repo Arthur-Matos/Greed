@@ -53,3 +53,6 @@ Para acessar os enunciados é necessário criar um login na plataforma Beecrowd,
 
 ## Apresentações de resoluções
 Exemplificações em vídeo de aplicações entre os exercicios resolvidos.
+
+- [Bee 1021 - Notas e Moedas](https://drive.google.com/file/d/1h8xpK7BcfBP8Mx6G4UgJe5YbX36VP7DY/view)
+- [Bee 1086 - O Salão do Clube](https://drive.google.com/file/d/1a48_syhk07IYdQYq6pJSj51GTIwAVft8/view)
