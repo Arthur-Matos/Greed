@@ -6,7 +6,6 @@ typedef struct {
     int peso;
 } Projetil;
 
-// Função auxiliar para calcular o máximo
 int max(int a, int b) {
     return a > b ? a : b;
 }
@@ -14,11 +13,11 @@ int max(int a, int b) {
 // Função para calcular o dano máximo usando backtracking
 int calcularMaximoDano(Projetil projetis[], int n, int capacidade, int idx, int **memo) {
     if (capacidade == 0 || idx == n) {
-        return 0; // Base case: sem capacidade ou sem mais projéteis
+        return 0; 
     }
 
     if (memo[idx][capacidade] != -1) {
-        return memo[idx][capacidade]; // Retorna valor memorizado
+        return memo[idx][capacidade];
     }
 
     int naoPega = calcularMaximoDano(projetis, n, capacidade, idx + 1, memo);
@@ -26,7 +25,7 @@ int calcularMaximoDano(Projetil projetis[], int n, int capacidade, int idx, int 
     if (projetis[idx].peso <= capacidade) { // Se o peso do projétil cabe na capacidade restante
         pega = projetis[idx].poder_destruicao + calcularMaximoDano(projetis, n, capacidade - projetis[idx].peso, idx + 1, memo);
     }
-    memo[idx][capacidade] = max(pega, naoPega); // Memoriza o resultado
+    memo[idx][capacidade] = max(pega, naoPega);
     return memo[idx][capacidade];
 }
 
@@ -47,7 +46,7 @@ int main() {
         for (int i = 0; i < N; i++) {
             memo[i] = (int *)malloc((K + 1) * sizeof(int));
             for (int j = 0; j <= K; j++) {
-                memo[i][j] = -1; // Inicializa a memória com -1
+                memo[i][j] = -1; 
             }
         }
 

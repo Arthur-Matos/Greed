@@ -58,3 +58,4 @@ Exemplificações em vídeo de aplicações entre os exercicios resolvidos.
 
 - [Bee 1021 - Notas e Moedas](https://drive.google.com/file/d/1h8xpK7BcfBP8Mx6G4UgJe5YbX36VP7DY/view)
 - [Bee 1086 - O Salão do Clube](https://drive.google.com/file/d/1a48_syhk07IYdQYq6pJSj51GTIwAVft8/view)
+- [Bee 1084 e 1288 - Apagando e Ganhando / Canhão de Destruição](https://unbbr.sharepoint.com/sites/Contaprivada/Documentos%20Compartilhados/General/Recordings/Reuni%C3%A3o%20em%20_General_-20240729_232246-Grava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o.mp4?web=1&referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view)
